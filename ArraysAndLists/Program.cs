@@ -49,7 +49,7 @@ namespace ArraysAndLists
              */
             foreach (var num in evens)
             {
-                Console.WriteLine(evens.Count);
+                Console.WriteLine(num);
             }
             
 
@@ -58,7 +58,7 @@ namespace ArraysAndLists
              */
             for (int i = 0; i < odds.Count; i++)
             {
-                Console.WriteLine(odds.Count);
+                Console.WriteLine(odds[i]);
             }
         }
     }
